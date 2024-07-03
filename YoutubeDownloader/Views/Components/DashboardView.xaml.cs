@@ -11,7 +11,7 @@ public partial class DashboardView
 
     private void QueryTextBox_OnPreviewKeyDown(object sender, KeyEventArgs args)
     {
-        // Disable new lines when pressing enter without shift
+        // Disable new lines when pressing enter without shift 
         if (args.Key == Key.Enter && args.KeyboardDevice.Modifiers != ModifierKeys.Shift)
         {
             args.Handled = true;
